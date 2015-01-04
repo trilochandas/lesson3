@@ -21,9 +21,14 @@ echo 'Недавно я прочитал книгу '.$book['title'].', напи
 <p>Задание 4</p>
 <?
 //zadanie 4
-$books=array();
-//$books[]= 
-//$books[]= 
+$book1=array('title'=>'za predeli vaikunthi', 'autor'=>'Sanatana Goswami',
+    'page'=>'100');
+$book2=array('title'=>'sharanagati', 'autor'=>'Thakur Bhaktivinod',
+    'page'=>'40');
 
+$books=array($book1,$book2);
 
+var_dump($books);
+
+echo 'я прочитал книгу'.$books[0];
 ?>
