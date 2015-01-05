@@ -1,8 +1,18 @@
+<!-- zadanie 1 -->
+<p>Задание 1</p>
+<?
+$name = Timur;
+$age = 26;
+echo 'Меня зовут '.$name.' Мне '.$age.' лет.';
+unset($name, $age);
+// var_dump($age) ; 
+?>
+<br>
 <p>Задание 2</p>
 <?
 //zadanie 2
 define('CITY', 'Evpatoria');
-var_dump(CITY);
+// var_dump(CITY);
 if (CITY) {
     echo 'Мой город - ' . CITY . '!';
 }
